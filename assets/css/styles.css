@@ -1056,6 +1056,25 @@ main .btn,
 }
 .section-title a { font-size: .9rem; font-weight: 600; }
 
+/* فريق المشروع — لون نص المعرّفات يتماشى مع الفيروزي/الوضع الداكن */
+#team .table code {
+  color: var(--e-primary-ink);
+  background: rgba(13, 148, 136, 0.12);
+  border: 1px solid rgba(13, 148, 136, 0.22);
+  padding: 0.25em 0.6em;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: ui-monospace, "Cascadia Code", "Segoe UI", monospace;
+}
+
+html[data-bs-theme="dark"] #team .table code {
+  color: #f0fdfa;
+  background: rgba(45, 212, 191, 0.14);
+  border-color: rgba(94, 234, 212, 0.3);
+  text-shadow: 0 0 1px rgba(6, 78, 59, 0.3);
+}
+
 /* -------- (8) التصنيفات -------- */
 .cat-tile {
   display: flex;
