@@ -485,7 +485,7 @@ function applyTheme(mode) {
   if (icon) {
     icon.className = dark ? "bi bi-brightness-high" : "bi bi-moon-stars";
   }
-  toggle.title = dark ? "التبديل إلى الوضع الفاتح" : "التبديل إلى الوضع الليلي";
+  toggle.title = dark ? "التبديل إلى الوضع الفاتح" : "التبديل إلى الوضع الداكن";
   toggle.setAttribute("aria-pressed", String(dark));
   toggle.setAttribute("aria-label", toggle.title);
 }

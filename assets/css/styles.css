@@ -1205,6 +1205,24 @@ html[data-bs-theme="dark"] #team .table code {
 }
 .e-footer .socials a:hover { background: var(--e-primary); color: #fff; border-color: var(--e-primary); }
 
+.e-footer__copyright {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--e-muted);
+  padding-top: 1.25rem;
+  margin: 0.75rem 0 0;
+  border-top: 1px solid var(--e-border);
+}
+
+.e-team-card img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--e-border);
+  box-shadow: 0 6px 18px rgba(13, 148, 136, 0.15);
+}
+
 /* روابط «روابط» في التذييل — حركة hover */
 .e-footer .col-md-3 ul.list-unstyled a {
   position: relative;
